@@ -1,0 +1,8 @@
+@import "variable";
+@import "navigacija";
+@import "rounded";
+@import "mixins";
+@import "footer";
+body{
+    background-color: $BackGroundColor;
+}

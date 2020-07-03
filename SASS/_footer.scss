@@ -1,0 +1,8 @@
+footer{
+    height: 50px;
+    line-height: 50px; // ako stavimo line-height isti kao i visina elementa u kome se taj text nalaza, text ce biti vertikalno centriran
+    color: white;
+    text-align: center;
+    background-color: $bojaPozadine;
+
+}

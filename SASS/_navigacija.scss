@@ -1,0 +1,32 @@
+
+nav{// navigacija
+    height: 40px;
+    background-color: $bojaPozadine;// iskoristili smo varijablu za boju pozadine
+    ul{// (nav ul)
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        li{// (nav ul li)
+            line-height: 40px;
+            list-style-type: none;
+            padding: 0 40px;
+            &:hover{ // nav ul li:hover
+                background-color: $BackGroundColor;
+                color:green;
+               text-decoration: underline;
+            }
+            a{// (nav ul li a)
+                text-transform: uppercase;
+                font-size:20px;
+                text-decoration: none;
+                color: red;
+            }
+        }
+    }
+}
